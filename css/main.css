@@ -1,0 +1,361 @@
+header {
+    max-width: 100%;
+    background-color: #202124;
+    border-bottom: 2px solid #000000;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+    margin-bottom: 50px;
+}
+body {
+    font-family: Roboto;
+}
+img {
+    max-width: 100%;
+}
+.pocetna {
+    height: 420px;
+    width: 100%;
+    object-fit: cover;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("../Fonts/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: RobotoBold;
+    src: url("../Fonts/Roboto-Bold.ttf");
+}
+@font-face {
+    font-family: RobotoLigth;
+    src: url("../Fonts/Roboto-Light.ttf");
+}
+@font-face {
+    font-family: Ikonice;
+    src: url("../Fonts/FontAwesome.otf");
+}
+#Layer_1 {
+    width: 130px;
+}
+.nav-link {
+    font-family: RobotoBold;
+    margin-left: 50px;
+    text-transform: uppercase;
+    color: #e9e8e8;
+    font-size: 17px;
+    
+}
+.dropdown-menu {
+    background-color: #1a1b1d;
+    border: 1px solid #e9e8e8;
+    border-width: 0.1mm;
+}
+.dropdown-menu a {
+    color: #fff;
+    font-size: 16px;
+}
+.dropdown-item:hover {
+    background-color: #fff;
+}
+.navbar-toggler-icon {
+    color: #e9e8e8;
+}
+.nav-link:hover {
+    color: #ffff;
+}
+
+body {
+    background-color: #1a1b1d;
+}
+.row {
+    margin-top: 30px;
+}
+.slika {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.EldenRing {
+    font-family: RobotoBold;
+    font-size: 35px;
+    color: #ffff;
+    margin-top: 10px;
+}
+.EldenRing2 {
+    font-family: RobotoBold;
+    font-size: 24px;
+    text-align: center;
+    color: #ffff;
+    margin-top: 10px;
+}
+p {
+    line-height: 1.5em;
+    color: #e9e8e8;
+    font-size: 16px;
+}
+.corner {
+    position: absolute;
+    bottom: 0;
+    right: 1;
+    padding: 3px;
+    background-color: #c61609;
+    font-size: 14px;
+}
+.info {
+   font-size: 13px;
+}
+
+.image-resize {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+.borderbottom {
+    font-size: 20px;
+    color: #ffff;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    border-bottom: 4px solid #c61609;
+}
+.brojevi {
+    font-size: 18px;
+    color: #ffff;
+    margin-top: 10px;
+}
+.image-resize2 {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+.image-resize3 {
+    height: 100px;
+    width: 100%;
+    object-fit: cover;
+}
+.image-resizevesti {
+    height: 263px;
+    width: 100%;
+    object-fit: cover;
+}
+.trending {
+    font-size: 15px;
+}
+.vesti {
+    margin-top: -5px;
+}
+.h3-naslov {
+    font-size: 19px;
+    font-family: RobotoBold;
+    color: #fff;
+}
+.footer-links a  {
+    font-family: RobotoBold;
+    text-transform: uppercase;
+    color: #e9e8e8;
+    margin-left: 0;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 18px;
+    text-decoration: none;
+}
+.footer-links a:hover {
+    color: #fff;
+}
+.footer-copyright a {
+    text-decoration: none;
+    color: #e9e8e8;
+    font-size: 14px;
+}
+.footer-copyright a:hover {
+    color: #fff;
+}
+.footer-copyright span {
+    color: #e9e8e8;
+    font-family: RobotoLigth;
+    font-size: 14px;
+}
+.footer-logo {
+    width: 150px;
+}
+.footer-logo:hover {
+    transform: scale(1.1);
+}
+footer {
+    background-color: #202124;
+    margin-top: 50px;
+}
+.social-icons a{
+    font-family: Ikonice;
+    color: #fff;
+    font-size: 1.5em;
+    text-align: center;
+    margin-right: 20px;
+    text-decoration: none;
+}
+/*NOVOSTI CSS*/
+.image-resize4 {
+    height: auto;
+    object-fit: cover;
+}
+.h2-novosti {
+    font-size: 24px;
+    margin-top: 10px;
+    font-family: RobotoBold;
+    color: #fff;
+}
+.h2-oprema {
+    font-size: 24px;
+    font-family: RobotoBold;
+    color: #fff;
+    margin-top: 10px;
+}
+.vremenska-prognoza {
+    margin-top: 10px;
+}
+.h2-gaming {
+    font-size: 24px;
+    font-family: RobotoBold;
+    color: #fff;
+}
+.tags a {
+    padding: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid #ffff;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 16px;
+}
+/*OPREMA*/
+
+.image-resize5 {
+    height: auto;
+    object-fit: cover;
+}
+.image-resize6 {
+    height: 115px;
+    width: 100%;
+    object-fit: cover;
+}
+.image-resize8 {
+    height:270px;
+    width: 550px;
+    object-fit: cover;
+   
+}
+.image-resize8:hover {
+    transform: scale(1.01);
+}
+.image-resizenovosti {
+    height: 130px;
+    width: 100%;
+    object-fit: cover;
+}
+.image-resizevesti2 {
+    height: 310px;
+    width: 100%;
+    object-fit: cover;
+}
+.image-resizevesti:hover {
+    filter: brightness(85%);
+}
+.image-resizevesti2:hover {
+    filter: brightness(85%);
+}
+.image-resizeoprema:hover {
+    filter: brightness(85%);
+}
+.btn {
+    color: #fff;
+    background-color: #c61609;
+    border: none;
+    margin-bottom: 25px;
+}
+.btn:hover {
+    background-color: red;
+}
+label {
+    color: #fff;
+}
+form {
+    background-color: #202124;
+    padding: 25px;
+    box-sizing: border-box;
+}
+#exampleInputEmail1 {
+    background-color: #e9e8e8;
+}
+#exampleInputTextArea1 {
+    background-color: #e9e8e8;
+}
+#exampleInputName1 {
+    background-color: #e9e8e8;
+}
+.h4 {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.pravila {
+    background-color: #202124;
+    padding: 25px;
+    box-sizing: border-box;
+}
+ol.breadcrumb {
+    background-color: #1a1b1d;
+}
+.breadcrumb-item a {
+    text-decoration: none;
+    color: #e9e8e8;
+}
+.breadcrumb li {
+    font-size: 19px;
+}
+.breadcrumb-item a:hover {
+    color: #fff;
+}
+.image-resizeoprema {
+    height: 270px;
+    width: 100%;
+    object-fit: cover;
+}
+video {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+/*MOBILE RESPONSIVE*/
+
+@media (max-width: 575.98px)  {
+    
+    .EldenRing {
+        font-size: 34px;
+    }
+    .EldenRing2 {
+        font-size: 24px;
+    }
+    .tags {
+        font-size: 16px;
+    }
+    .nav-link {
+        font-size: 16px;
+    }
+    .footer-links a {
+        font-size: 16px;
+    }
+    .footer-logo {
+        width: 130px;
+    }
+    #Layer_1 {
+        width: 120px;
+    }
+    .pocetna {
+        height: 320px;
+    }
+    .breadcrumb li {
+        font-size: 16px;
+    }
+    /*NOVOSTI*/
+    .tags a {
+        font-size: 13px;
+    }
+
+}
